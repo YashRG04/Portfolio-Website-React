@@ -1,6 +1,6 @@
 export const Work = [
   {
-    id: 2,
+    id: 1,
     name: "Shop Studio",
     description:
       "A E-COMMERCE Website made on MERN Stack. Covers all the functionalities of a E-COMMERCE Website.",
@@ -11,23 +11,34 @@ export const Work = [
       "styledComponents",
       "redux",
       "express",
+      "restapi",
     ],
 
     demo: "https://shop-studios.herokuapp.com/",
     github: "https://github.com/YashRG04/ShopStudio",
   },
   {
-    id: 1,
+    id: 2,
     name: "Cosmology Club Website",
     description: "It is build on HTML, CSS and JavaScript with animations",
-    tags: ["react", "gsap", "styledComponents"],
+    tags: ["html", "css", "javascript", "animation"],
 
-    demo: "https://glistening-duckanoo-560d20.netlify.app/",
+    demo: "https://cosmologyclub.netlify.app/",
     github: "https://github.com/YashRG04/Cosmology-Club-DTU",
   },
 
   {
     id: 3,
+    name: "Cosmic Conclave Website ",
+    description: "It is build on ReactJs with animations",
+    tags: ["React", "CSS", "responsive", "animation"],
+
+    demo: "https://cosmicconclave.netlify.app/",
+    github: "https://github.com/YashRG04/cosmic-conclave",
+  },
+
+  {
+    id: 4,
     name: "Keeper App",
     description: "A note making app architectured using React Js",
     tags: ["react", "api"],
@@ -36,7 +47,7 @@ export const Work = [
     github: "https://github.com/YashRG04/Keeper-App",
   },
   {
-    id: 4,
+    id: 5,
     name: "Newsletter Signup",
     description:
       "A newsletter signup app architectured using express and mailchimp",

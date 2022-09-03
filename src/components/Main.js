@@ -9,6 +9,7 @@ import { keyframes } from "styled-components";
 import { useState } from "react";
 import Intro from "../components/Intro";
 import { motion } from "framer-motion";
+import MetaData from "./MetaData";
 
 const MainContainer = styled.div`
   background: ${(props) => props.theme.body};
@@ -177,6 +178,7 @@ const Main = () => {
 
   return (
     <MainContainer>
+      <MetaData title="Yash Raj Gupta"/>
       <DarkDiv click={click} />
       <Container>
         <PowerButton />
